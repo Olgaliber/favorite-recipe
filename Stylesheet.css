@@ -1,0 +1,141 @@
+/* CSS file */
+
+div {
+	border-radius: 5px;
+}
+
+body {
+	background-color: #fff;
+}
+
+#header {
+	background-color: #668284;
+	width: 100%;
+	margin-top: -2px;
+	height: 150px;
+}
+
+h1 {
+	color: orange;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 150px;
+	font-family: helvetica;
+	font-size: 60px;
+}
+
+.title {
+	text-align: center;
+	font-size: 30px;
+}
+
+.seperator {
+	height: 10px;
+	background-color: #fff;
+}
+
+.content-title {
+	font-family: Arial;
+	font-size: 30px;
+	color: #AD6528;
+	text-align: left;
+	height: 100px;
+	width: 60%;
+	float: right;
+	background-color: #fff;
+	text-shadow: 2px 2px #B4B4B4;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.title-text:hover {
+	-webkit-transform-style: preserve-3d;
+	transform: rotateY(360deg);
+	transform-style: preserve-3d;
+}
+
+.title-text {
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+.recipe-picture {
+	width: 120px;
+	height: 120px;
+	float: right;
+	margin-right: 70px;
+	margin-top: -42px;
+}
+
+.tabbouleh-salad-picture {
+	width:40%;
+	float:left;
+	margin-top: -100px;
+}
+
+.time-servings-picture {
+	float:left;
+	box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-subtitle {
+	font-family: Arial;
+	color: #866542;	
+	font-size: 25px;
+	text-align: left;
+	height: 210px;
+	width:60%;
+	background-color: #fff;
+	float:right;
+	line-height: 110px
+}
+ 
+u {
+	text-decoration: underline;
+	color: #AD6528;
+}
+
+.ingredients {
+	width: 30%;
+	height: 500px;
+	color:#AD6528;
+    float: left;
+    padding: 10px;
+    background-color: #fff;
+    font-family: Arial;
+	font-size: 20px;
+	margin-right: 70%;
+	margin-top: 80px;
+}
+
+h3 {
+	color: #866542;
+}
+
+.instructions {
+	width: 67%;
+	height: 500px;
+	color: #AD6528;
+    float: left;
+    padding: 10px;
+    background-color: #fff;
+    font-family: Arial;
+	font-size: 20px;
+	margin-left: 31.5%;
+	margin-top: -36.5%;
+}
+
+#footer {
+	background-color: #668284;
+	position: static;
+    color: white;
+    clear: both;
+    text-align: left;
+    padding: 5px;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;   
+}

@@ -1,0 +1,98 @@
+<!--DOCTYPE html-->
+
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+		<script src="script.js"></script>
+		<title>My Favorite Recipe</title>
+	</head>
+
+	<body>
+		<section>
+			<div id="header">
+				<div class="title">
+					<h1 class="title-text">My Favorite Recipe</h1>
+				</div>
+			</div>
+
+			<div class="seperator">	</div>
+
+			<div class="content-title">	
+				<h2>Tabbouleh Salad</h2>
+			</div>
+
+			<div class="content-subtitle">
+				<p>Quick. Healthy. Delicious.</p>
+			</div> 
+
+			<div class="tabbouleh-salad-picture" id="picture1">
+				<img class="image" src="tabbouleh-salad.jpg">
+			</div>
+
+			<div class="time-servings-picture" id="picture2">
+				<img src="time-servings.png">
+			</div>
+		</section>
+
+		<section>
+			<div class="ingredients"> 	
+				<u><h3>Ingredients</h3></u>
+					<ul style="list-style: none"> 
+						<li> <input type="checkbox" id="checkbox_btn1"/> <label id="li1" for="checkbox_btn"> 1 c. fine bulghur wheat</label></li>
+						<li><input type="checkbox" id="checkbox_btn2"/><label id="li2" for="checkbox_btn"> 2 c. boiling water</label></li>
+						<li><input type="checkbox" id="checkbox_btn3"/><label id="li3" for="checkbox_btn"> 3 bunches flat-leaf parsley</label></li>
+						<li><input type="checkbox" id="checkbox_btn4"/><label id="li4" for="checkbox_btn"> 1 bunch mint</label></li>
+						<li><input type="checkbox" id="checkbox_btn5"/><label id="li5" for="checkbox_btn"> 2 roma tomatoes finely diced</label></li>
+						<li><input type="checkbox" id="checkbox_btn6"/><label id="li6" for="checkbox_btn"> 1 large cucumber finely diced</label></li>
+						<li><input type="checkbox" id="checkbox_btn7"/><label id="li7" for="checkbox_btn"> 3 green onions, thinly sliced</label></li>
+						<li><input type="checkbox" id="checkbox_btn8"/><label id="li8" for="checkbox_btn"> 6 Tbsp. extra virgin olive oil</label></li>
+						<li><input type="checkbox" id="checkbox_btn9"/><label id="li9" for="checkbox_btn"> 3 Tbsp. fresh lemon juice</label></li>
+						<li><input type="checkbox" id="checkbox_btn10"/><label id="li10" for="checkbox_btn"> dash of Kosher salt</label></li>
+					</ul>
+			</div>
+
+			<div class="instructions">
+				<u><h3>Instructions</h3></u>
+				<ol id="li_ing1"><em><input type="checkbox" id="checkbox_btn_ing1"/> <label for="checkbox_btn_ing1">Prepare the Bulghur Wheat</em></label>
+					<li>Pour the boiling water over the bulghur wheat in a shallow bowl. Use a fork to quickly stir the water into the wheat, then set aside for 10 minutes.</li>
+					<li>Fluff the wheat with a fork, then place a plate (or plastic wrap) over the top of the bowl and place it in the fridge.</li>
+					<li><strong>Let rest until room temperature, </strong> at least 15 minutes.</li>
+				</ol>
+
+				<ol id="li_ing2"><em><input type="checkbox" id="checkbox_btn_ing2"/> <label for="checkbox_btn_ing2">Prepare the Herbs</em></label>
+					<li>Wash the leaves of the parsley and mint then dry completely with a paper towel.</li>
+					<li>Trim the stems and discard.</li>
+					<li>Mince the parsley and mint leaves and place in a large bowl.</li>
+				</ol>
+
+				<ol id="li_ing3"><em><input type="checkbox" id="checkbox_btn_ing3"/> <label for="checkbox_btn_ing3">Make the Tabbouleh</em></label>
+
+					<li>Remove the cooled bulghur from the fridge and combine with the herbs, fluffing and tossing with a fork. Fold in the tomatoes, cucumber, and green onions.</li>
+					<li>Drizzle in the olive oil and lemon juice and toss well. Sprinkle in the salt, stir, and taste. Add more salt if needed.</li>
+					<li>Serve cool or at room temperature.</li>
+					
+				</ol>
+			</div>
+		</section>
+
+		<section>
+			<div id="footer">
+				<h4>Fun facts:</h4>
+				<p> 
+				Originally from the mountains of Lebanon and Syria, tabbouleh has become one of the most popular salads in the Middle East.
+
+	In Lebanon, Syria, Palestine, and Jordan, the wheat variety salamouni cultivated in the region around Mount Lebanon, Beqaa Valley and Baalbek was considered (in the mid-19th century) as particularly well-suited for making bulgur, a basic ingredient of tabbouleh.
+
+	Tabbouleh and other vegetable-based mezze dishes popular in Syria were mocked by Baghdadi women and cooks when they were first introduced to them, because they were seen as being a means to scrimp on the use of meat. <br><br>
+
+	*Interested in learning more about Tabbouleh? Click <a href="https://en.wikipedia.org/wiki/Tabbouleh"> here</a> for more info*
+				</p>
+
+				<button id="button" type="button" onclick="button()">Hide all pics</button>
+			</div>
+					<!-- recipe source: http://www.popsugar.com/fitness/Healthy-Tabbouleh-Salad-Recipe-28160513 -->
+			</div>
+		</section>
+	</body>
+</html>
